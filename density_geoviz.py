@@ -4,11 +4,15 @@
 Created on Tue Nov 30 16:54:41 2021
 
 @author: luca
+This is to recreate the original 3 density visualisations (active businesses, overdue accounts)
+"""
 
+"""
 Open Connection - cnx.reconnect()
 Close Connection - cnx.close()
 Check Connection - cnx.is_connected()
 """
+
 import numpy as np
 import pandas as pd
 import mysql.connector
