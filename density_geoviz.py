@@ -27,7 +27,7 @@ import contextily as cx
 
 postcodes = pd.read_csv(r'/home/luca/Documents/ukpostcodes.csv')
 
-cnx = mysql.connector.connect(user='root', password='bRQy4wW4pMz9CmA', host='34.123.17.39', database='ust')
+cnx = mysql.connector.connect(user='', password='', host='34.123.17.39', database='ust')
 
 cursor = cnx.cursor()
 
